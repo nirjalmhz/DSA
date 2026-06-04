@@ -5,7 +5,7 @@
 int stack[SIZE];
 int top = -1;
 
-// Push operation
+
 void push(int value) {
     if(top == SIZE - 1) {
         printf("Stack Overflow\n");
@@ -17,7 +17,7 @@ void push(int value) {
     }
 }
 
-// Pop operation
+
 void pop() {
     if(top == -1) {
         printf("Stack Underflow\n");
@@ -28,7 +28,7 @@ void pop() {
     }
 }
 
-// Top operation
+
 void peek() {
     if(top == -1) {
         printf("Stack is empty\n");
